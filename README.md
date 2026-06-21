@@ -66,5 +66,5 @@ This repository is created to strengthen my understanding of Data Structures, Al
 
 Author
 
-Vishvank Reddy Singur
+Singur Vishvank Reddy
 Information Technology Student, CBIT
