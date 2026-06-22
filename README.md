@@ -62,7 +62,15 @@ Object-Oriented Programming (OOP)
 
 Purpose
 
-This repository is created to strengthen my understanding of Data Structures, Algorithms, and Object-Oriented Programming concepts in C++.
+This repository documents my DSA learning journey and problem-solving practice through coding exercises and LeetCode problems.
+
+Platform
+
+* LeetCode
+
+Language
+
+* C++
 
 Author
 
