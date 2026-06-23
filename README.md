@@ -66,11 +66,11 @@ This repository documents my DSA learning journey and problem-solving practice t
 
 Platform
 
-* LeetCode
+LeetCode
 
 Language
 
-* C++
+C++
 
 Author
 
