@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int gcdOfOddEvenSums(int n) {
+        int sumOdd = 0;
+        int sumEven = 0;
+        int GCD;
+        for(int i = 1 ; i <= n * 2 ; i += 2) {
+        sumOdd = sumOdd + i;
+        }
+        for(int j = 2 ; j <= n * 2 ; j += 2) {
+        sumEven = sumEven + j;
+        }
+        for(int k = 1 ; k <= min(sumOdd, sumEven) ; k++) {
+            if (sumOdd % k == 0 && sumEven % k == 0) {
+                GCD = k;
+            }
+        }
+        return GCD;
+    }
+};
