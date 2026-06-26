@@ -1,0 +1,42 @@
+class Solution {
+public:
+    bool containsPattern(vector<int>& arr, int m, int k) {
+
+        for (int start = 0; start + m * k <= arr.size(); start++) {
+
+            vector<int> arr1(m);
+
+            // store pattern of length m
+            for (int i = 0; i < m; i++) {
+                arr1[i] = arr[start + i];
+            }
+
+            int count = 1;
+
+            // check following blocks of size m
+            for (int block = start + m; block < start + m * k; block += m) {
+
+                bool same = true;
+
+                for (int i = 0; i < m; i++) {
+                    if (arr[block + i] != arr1[i]) {
+                        same = false;
+                        break;
+                    }
+                }
+
+                if (same) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+
+            if (count >= k) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+};
