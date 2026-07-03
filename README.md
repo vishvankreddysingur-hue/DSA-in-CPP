@@ -2,7 +2,6 @@ DSA in C++
 
 This repository contains my Data Structures and Algorithms (DSA) practice programs implemented in C++.
 
-
 Topics Covered
 
 Arrays
